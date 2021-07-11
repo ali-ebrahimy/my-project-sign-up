@@ -1,0 +1,194 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&family=Poppins&display=swap");
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway/Raleway-VariableFont_wght.ttf") format("ttf");
+  src: url("../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf")
+    format("ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  width: 40%;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin: 2rem 1rem 1rem -3px;
+}
+.SignUp-container {
+  background-color: #aff1bd;
+  padding: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 30px;
+}
+/* ---- Design left side start -----*/
+.SignUp-container .container .left-side {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #f0efef77;
+  width: 50%;
+  margin: 40px 0;
+  text-align: center;
+}
+.left-side img {
+  position: relative;
+  display: block;
+  width: 570px;
+  height: 450px;
+  object-fit: contain;
+}
+.left-side h3 {
+  color: #fff;
+  font-family: "Raleway" !important;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 35px;
+}
+/* ---- Design left side end. -----*/
+/* ---- - -----*/
+/* ---- Design right side start -----*/
+.SignUp-container .container .right-side {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ffffff;
+  width: 50%;
+  margin: 40px 0;
+}
+
+.right-content {
+  font-family: "Poppins", sans-serif !important;
+  margin: 50px 0 0 60px;
+}
+.right-side h1 {
+  color: #2f2f2f;
+  font-size: 2em;
+}
+.right-side .right-content small {
+  color: #21252971;
+  font-size: 0.8em;
+  margin-left: 4px;
+  line-height: 27px;
+}
+.right-side .right-content small span {
+  color: #99eeac;
+}
+.btn {
+  border: 1px solid #dcdcdc;
+  /* padding: 10px 20px; */
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 0.8em;
+  text-align: center;
+  background-color: #fff;
+  width: 40%;
+  height: 47px;
+}
+.btn-blue {
+  background-color: #4867aa;
+  color: #fff;
+}
+.flex-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.right-content button {
+  font-family: "Poppins", sans-serif !important;
+  margin-top: 25px;
+  margin-right: 24px;
+}
+.right-content button img {
+  padding-top: 3px;
+  margin: -5px 5px;
+}
+.right-side .right-content .span-or {
+  margin: 1rem 9px 0 -10px;
+  opacity: 0.5;
+}
+.right-side .right-content .right-hr {
+  width: 39%;
+  margin-left: 1px;
+}
+.right-side form button {
+  display: block;
+  width: 70%;
+}
+.right-side form button p {
+  font-family: "Poppins", sans-serif !important;
+  display: inline-block;
+  margin-left: 20px;
+}
+.right-side form button i {
+  margin-left: -195px;
+  display: inline-block;
+}
+input[type="email"] {
+  display: block;
+  background-image: url(./image/icons8-email-64.png);
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 13px 9px;
+  padding-left: 40px;
+  font-size: 13px;
+  width: 85%;
+  height: 40px;
+  border-radius: 7px;
+  margin-top: 10px;
+  transition: background-image 0.3s ease-in-out;
+}
+
+input[type="email"]:hover {
+  background-image: url(./image/icon-email-send.png);
+}
+input[type="password"] {
+  display: block;
+  background-image: url(./image/icons8-password-64.png);
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-position: 13px 9px;
+  padding-left: 40px;
+  font-size: 13px;
+  width: 85%;
+  height: 40px;
+  border-radius: 7px;
+  margin-top: 10px;
+  transition: background-image 0.3s ease-in-out;
+}
+input[type="password"]:hover {
+  background-image: url(./image/icons8-unlock-64.png);
+}
+.form-checkbox {
+  line-height: 60px;
+}
+form span a {
+  color: #99eeac;
+}
+.right-side .right-content form button {
+  color: #fff;
+  background-color: #99eeac;
+  width: 85%;
+  height: 40px;
+  transition: all 0.3s;
+}
+.right-side .right-content form button:hover {
+  background-color: #99eeac;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.7959558823529411) 0%,
+    rgba(9, 121, 31, 0.865983893557423) 0%,
+    rgba(0, 255, 235, 0.8267682072829132) 100%
+  );
+}
