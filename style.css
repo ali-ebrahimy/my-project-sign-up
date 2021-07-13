@@ -22,7 +22,13 @@ hr {
   margin: 2rem 1rem 1rem -3px;
 }
 .SignUp-container {
-  background-color: #aff1bd;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.7959558823529411) 0%,
+    rgba(9, 121, 31, 0.865983893557423) 0%,
+    rgba(0, 255, 235, 0.8267682072829132) 100%
+  );
   padding: 100px;
 }
 .container {
@@ -78,10 +84,9 @@ hr {
   color: #21252971;
   font-size: 0.8em;
   margin-left: 4px;
-  line-height: 27px;
 }
 .right-side .right-content small span {
-  color: #99eeac;
+  color: #6be786f5;
 }
 .btn {
   border: 1px solid #dcdcdc;
@@ -112,6 +117,10 @@ hr {
 .right-content button img {
   padding-top: 3px;
   margin: -5px 5px;
+}
+.right-content button:hover{
+  box-shadow: rgba(63, 62, 62, 0.747) 2px 2px 5px;
+  border: 0;
 }
 .right-side .right-content .span-or {
   margin: 1rem 9px 0 -10px;
@@ -169,15 +178,41 @@ input[type="password"] {
 input[type="password"]:hover {
   background-image: url(./image/icons8-unlock-64.png);
 }
+input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.342);
+}
+/* input:focus::-webkit-input-placeholder {
+  transition: all 1s;
+  color: rgb(134, 166, 226);
+  color: linear-gradient(
+    90deg,
+    rgba(55, 126, 255, 1) 0%,
+    rgba(87, 153, 241, 1) 100%
+  );
+}
+
+Firefox < 19
+input:-moz-placeholder {
+  color: #999;
+}
+input:focus:-moz-placeholder {
+  transition: all 1s;
+  color: rgb(127, 171, 252);
+  color: linear-gradient(
+    90deg,
+    rgba(55, 126, 255, 1) 0%,
+    rgba(87, 153, 241, 1) 100%
+  );
+} */
 .form-checkbox {
   line-height: 60px;
 }
 form span a {
-  color: #99eeac;
+  color: #51e672f5;
 }
 .right-side .right-content form button {
   color: #fff;
-  background-color: #99eeac;
+  background-color: #6ae284;
   width: 85%;
   height: 40px;
   transition: all 0.3s;
